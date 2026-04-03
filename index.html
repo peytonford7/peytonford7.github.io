@@ -5,38 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peyton Ford - Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style_dark.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-md border-bottom bg-lightgrey">
+    <nav class="navbar navbar-expand-md border-bottom bg-nav">
       <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="nav-name">
+          <a class="nav-link text-title" href="#"><h3><strong>Peyton Ford</strong></h3></a>
+        </div>
+        <div class="nav-links mx-auto" style="width: 33.333%;">
           <div class="navbar-nav">
-            <a class="nav-link text-blue" href="#about"><h3><strong>About</strong></h3></a>
-            <a class="nav-link text-blue" href="#experience"><h3><strong>Experience</strong></h3></a>
-            <a class="nav-link text-blue" href="#projects"><h3><strong>Projects</strong></h3></a>
-            <a class="nav-link text-blue" href="#contact"><h3><strong>Contact</strong></h3></a>
+            <a class="nav-link text-title" href="#about"><h3><strong>About</strong></h3></a>
+            <a class="nav-link text-title" href="#experience"><h3><strong>Experience</strong></h3></a>
+            <a class="nav-link text-title" href="#projects"><h3><strong>Projects</strong></h3></a>
+            <a class="nav-link text-title" href="#contact"><h3><strong>Contact</strong></h3></a>
           </div>
         </div>
-        <a href="https://github.com/peytonford7">
-          <img src="./assets/github.png" alt="GitHub" width="75" d-inline-block align-text-top />
-        </a>
-        <a href="https://www.linkedin.com/in/peyton-ford-58234b168">
-          <img src="./assets/linkedin.png" alt="LinkedIn" width="75" d-inline-block align-text-top />
-        </a>
-        <a href="mailto:peytonford7@gmail.com">
-          <img src="./assets/email.png" alt="Email" width="75" d-inline-block align-text-top />
-        </a>
+        <div class="nav-icons">
+          <a href="https://github.com/peytonford7">
+            <img src="./assets/github.png" alt="GitHub" width="50" class="d-inline-block align-text-top" />
+          </a>
+          <a href="https://www.linkedin.com/in/peyton-ford-58234b168">
+            <img src="./assets/linkedin.png" alt="LinkedIn" width="50" class="d-inline-block align-text-top" />
+          </a>
+          <a href="mailto:peytonford7@gmail.com">
+            <img src="./assets/email.png" alt="Email" width="50" class="d-inline-block align-text-top" />
+          </a>
+        </div>
       </div>
     </nav>
 
     <div class="card flex-row border-0" id="about">
       <img class="card-img-top img-fluid h-100 object-fit-cover rounded-circle" style="width: 20vw;" src="./assets/profile-pic.png" alt="Profile Pic" />
       <div class="card-body">
-        <h2 class="card-title text-blue" id="experience"><strong>Experience</strong></h2>
+        <h2 class="card-title text-title" id="experience"><strong>Experience</strong></h2>
         <div class="card-text">
-          <h3 class="text-lightblue">Software Technician | Systems and Full-Stack Development</h3>
-          <p class="text-white" style="max-width: 100ch;">
+          <h3 class="text-subtitle">Software Technician | Systems and Full-Stack Development</h3>
+          <p class="text-body" style="max-width: 100ch;">
             I am a software engineer who enjoys building practical tools and
             learning by doing. I have worked with Linux systems, Docker, and
             cloud-connected camera devices in a manufacturing setting. My projects
@@ -44,9 +49,9 @@
             website. I am focused on continuous growth in a full-time software
             engineering role.
           </p>
-          <h2 class="text-blue"><strong>Education</strong></h2>
-          <h3 class="text-lightblue">B.S. Computer Science | The University of Texas at Dallas</h3>
-          <p class="text-white" style="max-width: 100ch;">
+          <h2 class="text-title"><strong>Education</strong></h2>
+          <h3 class="text-subtitle">B.S. Computer Science | The University of Texas at Dallas</h3>
+          <p class="text-body" style="max-width: 100ch;">
             I have a B.S. in Computer Science from The University of Texas at Dallas.
             My coursework includes data structures, algorithms, operating systems,
             and software engineering. I have built projects in Python, Java, C++,
@@ -62,12 +67,12 @@
 
     <div class="card-group">
       <div class="col-ms-6 mx-auto">
-        <h3 class="text-blue text-center"><strong>Software & Systems</strong></h3>
+        <h3 class="text-title text-center"><strong>Software & Systems</strong></h3>
         <div class="card flex-row border-0">
           <img class="card-img-top img-fluid h-100" style="width: 1.5vw;" src="./assets/checkmark.png" alt="-" />
           <div class="card-body">
-            <h5 class="card-title text-lightblue"><strong>Software Technician – Eagle Eye Networks</strong></h5>
-            <p class="card-text">
+            <h5 class="card-title text-subtitle"><strong>Software Technician – Eagle Eye Networks</strong></h5>
+            <p class="card-text text-body">
               Help improve software updates by testing and validating changes
               across device and cloud pipelines for network video systems.
             </p>
@@ -76,8 +81,8 @@
         <div class="card flex-row border-0">
           <img class="card-img-top img-fluid h-100" style="width: 1.5vw;" src="./assets/checkmark.png" alt="-" />
           <div class="card-body">
-            <h5 class="card-title text-lightblue"><strong>Linux & Firmware Configuration</strong></h5>
-            <p class="card-text">
+            <h5 class="card-title text-subtitle"><strong>Linux & Firmware Configuration</strong></h5>
+            <p class="card-text text-body">
               Set up firmware, Linux-based operating systems, and application
               software for secure, cloud-connected camera devices.
             </p>
@@ -86,8 +91,8 @@
         <div class="card flex-row border-0">
           <img class="card-img-top img-fluid h-100" style="width: 1.5vw;" src="./assets/checkmark.png" alt="-" />
           <div class="card-body">
-            <h5 class="card-title text-lightblue"><strong>Docker & AWS Integration</strong></h5>
-            <p class="card-text">
+            <h5 class="card-title text-subtitle"><strong>Docker & AWS Integration</strong></h5>
+            <p class="card-text text-body">
               Work with Docker services and AWS systems to validate and deploy
               devices to large scale environments.
             </p>
@@ -96,12 +101,12 @@
       </div>
 
       <div class="col-ms-6 mx-auto">
-        <h3 class="text-blue text-center"><strong>Development & Tooling</strong></h3>
+        <h3 class="text-title text-center"><strong>Development & Tooling</strong></h3>
         <div class="card flex-row border-0">
           <img class="card-img-top img-fluid h-100" style="width: 1.5vw;" src="./assets/checkmark.png" alt="-" />
           <div class="card-body">
-            <h5 class="card-title text-lightblue"><strong>Python & Go Scripts</strong></h5>
-            <p class="card-text">
+            <h5 class="card-title text-subtitle"><strong>Python & Go Scripts</strong></h5>
+            <p class="card-text text-body">
               Build and maintain Python and Go scripts for automated testing,
               device setup, and troubleshooting workflows.
             </p>
@@ -110,8 +115,8 @@
         <div class="card flex-row border-0">
           <img class="card-img-top img-fluid h-100" style="width: 1.5vw;" src="./assets/checkmark.png" alt="-" />
           <div class="card-body">
-            <h5 class="card-title text-lightblue"><strong>Troubleshooting & QA</strong></h5>
-            <p class="card-text">
+            <h5 class="card-title text-subtitle"><strong>Troubleshooting & QA</strong></h5>
+            <p class="card-text text-body">
               Validate software behavior using logs, diagnostic tools, and test
               procedures to identify issues and support fixes.
             </p>
@@ -120,8 +125,8 @@
         <div class="card flex-row border-0">
           <img class="card-img-top img-fluid h-100" style="width: 1.5vw;" src="./assets/checkmark.png" alt="-" />
           <div class="card-body">
-            <h5 class="card-title text-lightblue"><strong>Team Collaboration</strong></h5>
-            <p class="card-text">
+            <h5 class="card-title text-subtitle"><strong>Team Collaboration</strong></h5>
+            <p class="card-text text-body">
               Work with engineers to reproduce bugs, improve test
               cases, and make sure devices meet quality and performance standards.
             </p>
@@ -131,32 +136,32 @@
     </div>
 
     <br />
-    <h1 class="text-blue text-center" id="projects"><strong>Projects</strong></h1>
+    <h1 class="text-title text-center" id="projects"><strong>Projects</strong></h1>
     <br />
 
     <div class="card-group">
       <div class="card flex">
         <div class="card-body">
-          <h3 class="card-title text-blue text-center" style="max-width: 150ch;"><strong>Developer Environment Launcher</strong></h3>
-          <p class="card-text">
+          <h3 class="card-title text-title text-center" style="max-width: 150ch;"><strong>Developer Environment Launcher</strong></h3>
+          <p class="card-text text-body">
             A Bash CLI tool that makes software development faster and easier.
             It can run builds and compilation, manage containers, and update
             Makefiles and Dockerfiles. It supports many project types, including
             compiled languages, scripting languages, data tools, and web frameworks.<br />
-            <div class="text-lightblue text-center"><strong> Tech Stack: Bash, Make, Docker, Git</strong></div>
+            <div class="text-subtitle text-center"><strong> Tech Stack: Bash, Make, Docker, Git</strong></div>
           </p>
           <img src="./assets/project-1.png" class="card-img-bottom" alt="Project 1" width="1000" />
         </div>
       </div>
       <div class="card flex">
         <div class="card-body">
-          <h3 class="card-title text-blue text-center" style="max-width: 150ch;"><strong>Mock Jury Trials Website</strong></h3>
-          <p class="card-text">
+          <h3 class="card-title text-title text-center" style="max-width: 150ch;"><strong>Mock Jury Trials Website</strong></h3>
+          <p class="card-text text-body">
             A website that helps defense attorneys prepare for jury trials.
             It lets users create and livestream mock trials, build trial scenarios,
             recruit mock jurors, collect payments, and review detailed trial
             results to better predict and understand jury decision-making.<br />
-            <div class="text-lightblue text-center"><strong> Tech Stack: Angular, Node.js, MongoDB, Azure</strong></div>
+            <div class="text-subtitle text-center"><strong> Tech Stack: Angular, Node.js, MongoDB, Azure</strong></div>
           </p>
           <img src="./assets/project-2.png" class="card-img-bottom" alt="Project 2" width="1000" />
         </div>
@@ -164,39 +169,44 @@
     </div>
 
     <br />
-    <h1 class="text-blue text-center" id="contact"><strong>Contact Me</strong></h1>
+    <h1 class="text-title text-center" id="contact"><strong>Contact Me</strong></h1>
     <br />
 
-    <div class="card-group">
+    <div class="card-group nav-links">
       <div class="col-ms-6 mx-auto">
-        <div class="card flex-row border-0">
-          <img src="./assets/github.png" alt="GitHub" style="width: 1.5vw;" />
-          <a style="text-decoration: none;" href="https://github.com/peytonford7"><h3 class="text-lightblue"><strong>GitHub</strong></h3></a>
+        <div class="card flex-row shadow border-dark">
+          &ensp;<img src="./assets/github.png" style="width: 2vw;" alt="GitHub" />&ensp;
+          <a style="text-decoration: none;" href="https://github.com/peytonford7"><h1 class="text-subtitle"><strong>GitHub&ensp;</strong></h1></a>
         </div>
       </div>
       <div class="col-ms-6 mx-auto">
-        <div class="card flex-row border-0">
-          <img src="./assets/linkedin.png" alt="LinkedIn" style="width: 1.5vw;" />
-        <a style="text-decoration: none;" href="https://www.linkedin.com/in/peyton-ford-58234b168"><h3 class="text-lightblue"><strong>LinkedIn</strong></h3></a>
+        <div class="card flex-row shadow border-dark">
+          &ensp;<img src="./assets/linkedin.png" style="width: 2vw;" alt="LinkedIn" />&ensp;
+        <a style="text-decoration: none;" href="https://www.linkedin.com/in/peyton-ford-58234b168"><h1 class="text-subtitle"><strong>LinkedIn&ensp;</strong></h1></a>
         </div>
       </div>
       <div class="col-ms-6 mx-auto">
-        <div class="card flex-row border-0">
-          <img src="./assets/email.png" alt="Email" style="width: 1.5vw;" />
-          <a style="text-decoration: none;" href="mailto:peytonford7@gmail.com"><h3 class="text-lightblue"><strong>Email</strong></h3></a>
+        <div class="card flex-row shadow border-dark">
+          &ensp;<img src="./assets/email.png" style="width: 2vw;" alt="Email" />&ensp;
+          <a style="text-decoration: none;" href="mailto:peytonford7@gmail.com"><h1 class="text-subtitle"><strong>Email&ensp;</strong></h1></a>
         </div>
       </div>
     </div>
     <br />
 
-    <footer class="border-top bg-lightgrey">
-          <div>
-            <a class="text-blue" href="#about"><span><strong>About</strong></span></a>
-            <a class="text-blue" href="#experience"><span><strong>Experience</strong></span></a>
-            <a class="text-blue" href="#projects"><span><strong>Projects</strong></span></a>
-            <a class="text-blue" href="#contact"><span><strong>Contact</strong></span></a>
+    <footer class="navbar navbar-expand-md border-top bg-nav">
+      <div class="container-fluid">
+        <div class="nav-links mx-auto">
+          <div class="navbar-nav">
+            <a class="nav-link text-title" href="#about"><h3><strong>About</strong></h3></a>
+            <a class="nav-link text-title" href="#experience"><h3><strong>Experience</strong></h3></a>
+            <a class="nav-link text-title" href="#projects"><h3><strong>Projects</strong></h3></a>
+            <a class="nav-link text-title" href="#contact"><h3><strong>Contact</strong></h3></a>
           </div>
+        </div>
+      </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>
