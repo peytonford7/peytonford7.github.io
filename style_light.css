@@ -13,17 +13,17 @@ hr.style-two {
 }
 
 #wallpaper_p {
-    font-size: 100%;
+    font-size: 110%;
     color: black;
     width: 90%;
-    margin: 5px auto 0px 50px;
+    margin: 35px auto 0px 60px;
     text-align: left;
 }
 
 #wallpaper_h1 {
     font-size: 180%;
     color: black;
-    margin: 0px auto 1px 50px;
+    margin: 0px auto 1px 60px;
     text-align: left;
 }
 
@@ -97,6 +97,15 @@ table#menu td a:hover {
     border: 2px rgb(220, 220, 230) dotted;
     padding: 10px;
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.tool-item img {
+    width: 55px;
+    height: 55px;
+    flex-shrink: 0;
+    margin-right: 8px;
 }
 
 ul {
